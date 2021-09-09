@@ -1,0 +1,25 @@
+{
+    "title": "帮助文档",
+    "author": "leishengjun",
+    "description": "this is a test.",
+    "language":  "zh-hans",
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-sharing",
+        "-highlight",
+        "prism",
+        "fontsettings",
+	"search-pro",
+	"navigator",
+        "expandable-chapters-small",
+        "chapter-fold",
+        "hide-element",
+        "code",
+	"splitter",
+        "insert-logo",
+        "tbfed-pagefooter",
+        "include-codeblock",
+	"lightbox"
+    ]
+}
