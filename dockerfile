@@ -14,7 +14,7 @@ RUN npm config set registry http://r.npm.taobao.org/ &&\
 
 WORKDIR /srv/gitbook
 
-COPY book.json .
+COPY src/* .
 
 RUN gitbook install ./
 
