@@ -18,9 +18,9 @@ COPY src/* .
 
 RUN gitbook install ./
 
-VOLUME /srv/gitbook /srv/html
+VOLUME /srv/gitbook /srv/data /srv/html
 
 EXPOSE 4000 35729
 
-CMD ["sleep", "1000d"]
+CMD ["sleep", "10000d"]
 #CMD /usr/local/bin/gitbook serve
