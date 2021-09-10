@@ -2,7 +2,7 @@ FROM node:6-slim
 
 MAINTAINER leishengjun leishengjun2010@qq.com
 
-ARG VERSION=3.2.2
+ARG VERSION=3.2.3
 
 LABEL version=$VERSION
 
