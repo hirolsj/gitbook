@@ -10,16 +10,44 @@
         "-highlight",
         "prism",
         "fontsettings",
-	"search-pro",
-	"navigator",
+        "search-pro",
+        "navigator",
         "expandable-chapters-small",
         "chapter-fold",
         "hide-element",
         "code",
-	"splitter",
+        "splitter",
         "insert-logo",
         "tbfed-pagefooter",
         "include-codeblock",
-	"lightbox"
-    ]
+        "lightbox"
+    ],
+	"pluginsConfig": {
+	    "sharing": {
+			"weibo": false,
+			"facebook": false,
+			"twitter": false,
+			"google": false,
+			"instapper": false,
+			"all": [
+			    "weibo",
+				"facebook",
+				"twitter",
+				"google",
+				"instapper"
+			]
+		},
+		"hide-element": {
+			"element": [".gitbook-link"]
+		},
+		"insert-logo": {
+			"url": "/images/psbc-logo.png",
+			"style": "background: none; max-height: 60px; min-height: 30px"
+		},
+		"tbfed-pagefooter": {
+			"copyright": "Copyright &copy psbc.com 2019",
+			"modify_label": "该文章修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm;ss"
+		}
+	}
 }
